@@ -1,0 +1,137 @@
+body {
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 0;
+    padding: 50px;
+}
+
+nav {
+    padding: 15px;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.ww {
+    overflow: hidden;
+    position: fixed;
+    top: 40px;
+    bottom: 40px;
+    width: 15%;
+    border: 1px solid sandybrown;
+    background-color: #f1ecec;
+    height: fit-content;
+    margin-left: 40%;
+}
+
+a {
+    font-size: x-large;
+    /* margin: 5px 20px; */
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(222, 157, 141);
+    color: rgb(215, 206, 224);
+    border-radius: 10px;
+}
+
+ol li::first-line {
+    font-weight: 300;
+}
+
+.container {
+    margin: 20px;
+    font: 300;
+    color: darkolivegreen;
+}
+
+.container2 {
+    margin: 20px;
+    font: 300;
+    color: rgb(119, 150, 67);
+}
+
+.ab {
+    margin-top: 70px;
+    font-size: x-large;
+    color: black;
+    line-height-step: 2px;
+    text-align: justify;
+}
+
+.contact {
+    width: fit-content;
+    position: relative;
+    margin-left: 40%;
+}
+
+footer {
+    position: relative;
+    margin-left: 35%;
+    text-align: center;
+    background-color: black;
+    width: 30%;
+    padding: auto;
+    color: whitesmoke;
+}
+
+h1 {
+    font: 800;
+    font-weight: bolder;
+    color: deeppink;
+}
+
+/* .header {
+    font-family: fantasy;
+    color: azure;
+} */
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    color: blueviolet;
+    font-weight: 800;
+}
+
+h3 {
+    color: coral;
+}
+
+.box1 {
+    display: block;
+    margin: auto;
+}
+
+.bold {
+    font: 400;
+    color: crimson;
+    text-decoration: underline;
+
+}
+
+.ref {
+    color: rgb(220, 31, 107);
+    background-color: rgba(87, 120, 156, 0.67);
+    border-left: 1px solid green;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: x-small;
+    margin: auto;
+    color: brown;
+}
+
+.ref:hover {
+    color: white;
+    background-color: black;
+}
+
+.one {
+    font-style: italic;
+    margin-top: 0;
+}
